@@ -51,6 +51,7 @@ export default function PurchaseWand(props) {
           </p>
 
           <p className="flex items-center justify-center w-full  md:flex-none md:justify-start md:text-start">
+            <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891">
             <button
               ref={buttonRef}
               className="text-white text-[20px] mt-6 p-4 rounded-2xl px-12"
@@ -64,6 +65,7 @@ export default function PurchaseWand(props) {
               Purchase From Envato
               <FaArrowRightLong className="text-white ms-4 text-[20px]" />
             </button>
+            </a>
           </p>
         </div>
         <div ref={imageRef} className="mt-4 md:mt-0">

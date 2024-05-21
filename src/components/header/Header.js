@@ -29,9 +29,11 @@ export default function Header(props) {
           <img src={motionArtLogo} alt="motionArtLogo" />
         </div>
         <div ref={buttonRef}>
+          <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891">
           <button className="text-[#0D051f] p-2 px-4 md:p-4 md:px-10 rounded-md bg-white hover:bg-transparent hover:text-white hover:border-2 hover:border-white">
             Purchase Now
           </button>
+          </a>
         </div>
       </div>
     </div>

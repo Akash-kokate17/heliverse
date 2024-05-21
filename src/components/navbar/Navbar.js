@@ -19,9 +19,12 @@ export default function Navbar(props) {
               </span>
             </div>
           </div>
-          <button className="text-white bg-[#82B440]  rounded-md outline-none h-[31px] w-[93px] me-5 text-center">
+          <a
+            href="https://codecanyon.net/checkout/102328138/create_account?_ga=2.98544351.1122467727.1716201991-1574804762.1715931678"
+            className="text-white bg-[#82B440] rounded-md outline-none h-[31px] w-[93px] me-5 text-center flex items-center justify-center"
+          >
             Buy now
-          </button>
+          </a>
         </div>
       </div>
     </>
