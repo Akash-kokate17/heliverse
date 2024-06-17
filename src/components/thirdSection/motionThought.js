@@ -26,47 +26,47 @@ export default function MotionThought(props) {
   }, []);
 
   return (
-    <div className="flex flex-col flex-wrap w-full mt-[50px]">
-      <div className="flex md:flex-row flex-col flex-wrap w-full">
-        <div className="md:ms-36 md:text-start text-center" ref={textRef}>
+    <div className="flex flex-col flex-wrap w-full mt-12">
+      <div className="flex flex-col md:flex-row flex-wrap w-full">
+        <div className="md:ml-36 text-center md:text-start" ref={textRef}>
           <div className="mt-3">
-            <span className="text-xl " style={gradientStyle}>
+            <span className="text-xl" style={gradientStyle}>
               Transform
             </span>{" "}
             <br />
-            <span style={gradientStyle} className="text-xl">
+            <span className="text-xl" style={gradientStyle}>
               Your Website
             </span>
           </div>
           <div className="mt-3">
-            <span className="text-[#EEE5FF] text-xl ">With Motion Art</span>
+            <span className="text-[#EEE5FF] text-xl">With Motion Art</span>
             <br />
             <span className="text-[#EEE5FF] text-xl">Effect</span>
           </div>
         </div>
-        <div className="flex flex-col flex-wrap text-center justify-center md:ms-[200px]">
-          <p className="text-[#EEE5FF] md:text-[70px] text-[40px] md:me-40 md:h-[90px] additional-animation">
+        <div className="flex flex-col flex-wrap text-center justify-center md:ml-[200px] mt-8 md:mt-0">
+          <p className="text-[#EEE5FF] md:text-[70px] text-[40px] md:mr-40 md:h-[90px] additional-animation">
             Attract Your
           </p>
           <p className="text-[#EEE5FF] md:text-[70px] text-[40px] md:h-[90px] additional-animation">
             Visitors Attention
           </p>
-          <span className="text-[#EEE5FF] md:text-[70px] md:me-32 text-[40px] md:h-[90px] additional-animation">
+          <span className="text-[#EEE5FF] md:text-[70px] text-[40px] md:h-[90px] additional-animation md:text-start">
             With Colorful
           </span>
-          <span style={gradientStyle} className="md:text-[70px] md:me-6 text-[40px] md:h-[90px] additional-animation">
+          <span style={gradientStyle} className="md:text-[70px] text-[40px] md:h-[90px] additional-animation">
             Motion Art Effect
           </span>
         </div>
-        <div className="flex flex-col flex-wrap  items-center w-full text-[#EEE5FFBD] mt-8">
-          <div className="md:w-[500px] md:me-12">
-            <p className="md:text-start additional-animation">
+        <div className="flex flex-col flex-wrap items-center w-full text-[#EEE5FFBD] mt-8">
+          <div className="md:w-[500px] md:mr-10 text-center md:text-start">
+            <p className="additional-animation">
               Unleash the power of creativity with Motion Art for Elementor - your
             </p>
-            <span className="md:text-start additional-animation">
+            <span className="additional-animation">
               ultimate solution for seamlessly integrating captivating animations into
             </span>
-            <span className="md:text-start additional-animation"> your website.</span>
+            <span className="additional-animation"> your website.</span>
           </div>
         </div>
       </div>
