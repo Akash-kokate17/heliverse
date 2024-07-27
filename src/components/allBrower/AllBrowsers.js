@@ -51,14 +51,14 @@ export default function AllBrowsers(props) {
   }, []);
 
   return (
-    <div ref={sectionRef} className="flex flex-col items-center justify-center w-full mt-10">
+    <div ref={sectionRef} className="flex flex-col items-center justify-center w-full mt-10 overflow-x-hidden">
       <div className="flex flex-col items-center justify-center text-center w-full">
-        <div className="flex flex-col items-center justify-center md:w-[1240px] w-[445px] md:h-[286px] h-[290px] rounded-xl p-10 md:p-0" style={{background: "linear-gradient(180deg, #0D061F 0%, #251E35 100%)"}}>
+        <div className="flex flex-col items-center justify-center md:w-[1240px] w-full md:h-[286px] h-[290px] rounded-xl p-10 md:p-0" style={{ background: "linear-gradient(180deg, #0D061F 0%, #251E35 100%)" }}>
           <p ref={(el) => textRef.current[0] = el} className="text-[25px] text-[#EEE5FF] w-full">Supported by All Popular Browsers</p>
           <p ref={(el) => textRef.current[1] = el} className="text-[16px] text-[#EEE5FFBD] mt-5">Rest assured, Motion Art is designed to be compatible</p>
           <p ref={(el) => textRef.current[2] = el} className="text-[16px] text-[#EEE5FFBD]">with all major web browsers.</p>
           <div ref={imageRef} className="flex items-center justify-center mt-5">
-            <img src={AllBrowse} alt="allBrowser" />
+            <img src={AllBrowse} alt="allBrowser" className="max-w-full" />
           </div>
         </div>
       </div>
